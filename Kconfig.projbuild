@@ -1,0 +1,4 @@
+# config vars for esp32-gpio
+menu "wolffshots/esp32-gpio config"
+    comment "no specific config needed here yet"
+endmenu
