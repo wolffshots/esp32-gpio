@@ -22,6 +22,12 @@
  * SOFTWARE.
  */
 
+/**
+ * @file gpio_wrapper.h
+ * @brief defininitions for component to simplify setting up gpio pins
+ */
+
+
 #ifndef GPIO_WRAPPER_H
 #define GPIO_WRAPPER_H
 
