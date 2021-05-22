@@ -30,6 +30,9 @@
  */
 
 #include "gpio_wrapper.h"
+#include "esp_log.h"
+
+static const char *TAG = CONFIG_GPIO_TAG; ///< tag for logging
 
 /**
  * set pin to output with no pullup, pulldown or interrupts
@@ -37,6 +40,7 @@
  */
 void gpio_output(gpio_num_t pin_number)
 {
+    ESP_LOGD(TAG, "setting up output pin: %d", pin_number);
     // compute bitmask of pin
     uint64_t pin_sel = 1ULL << pin_number;
 

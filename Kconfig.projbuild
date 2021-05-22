@@ -1,4 +1,8 @@
 # config vars for esp32-gpio
 menu "wolffshots/esp32-gpio config"
-    comment "no specific config needed here yet"
+    config GPIO_TAG
+        string "gpio tag"
+        default "esp32-gpio"
+        help
+            tag for use with esp log library for gpio library
 endmenu
