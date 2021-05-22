@@ -1,4 +1,5 @@
 # esp32-gpio
+Docs: [![couldn't get build status](https://api.travis-ci.com/wolffshots/esp32-gpio.svg?branch=main "Current doc build status")](https://davidantliff.github.io/esp32-gpio/index.html)
 
 simple wrapper for setting up gpio pins
 
