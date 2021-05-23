@@ -24,6 +24,7 @@ below is short explanation of remaining files in the project folder.
 ├── include                     header file directory
 │   └── gpio_wrapper.h          the header file for this component
 ├── .gitignore                  describes what files and folders git should ignore
+├── .travis.yml                 build rules for creating docs via doxygen
 ├── CMakeLists.txt              base project cmake file (describes dependencies, include dir and src dir)
 ├── component.mk                component make file
 ├── gpio_wrapper.c              core src file of the component
